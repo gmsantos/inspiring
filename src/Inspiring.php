@@ -8,8 +8,8 @@ class Inspiring
 {
     /**
      * Get a funny inspiring quote.
-	 *
-	 * I've made this commit from my desk.
+     *
+     * I've made this commit from my desk.
      *
      * Source: https://github.com/notepad-plus-plus/notepad-plus-plus/blob/246c8bd1684f89d1e3c87a77148bc51e6555f83c/PowerEditor/src/Notepad_plus.cpp#L5500
      *
@@ -17,7 +17,6 @@ class Inspiring
      */
     public static function quote()
     {
-        
         return Collection::make([
             
             "Good programmers use Notepad++ to code.\nExtreme programmers use MS Word to code, in Comic Sans, center aligned. - Notepad++",
@@ -222,7 +221,7 @@ class Inspiring
             "Human beings can be beautiful or more beautiful,\nthey can be fat or skinny, they can be right or wrong,\nbut illegal? How can a human being be illegal? - Elie Wiesel",
             "Empty your memory, with a free(), like a pointer.\nIf you cast a pointer to a integer, it becomes the integer.\nIf you cast a pointer to a struct, it becomes the struct.\nThe pointer can crash, and can overflow.\nBe a pointer my friend. - Dennis Ritchie",
             "Uuuuuuuuuur Ahhhhrrrrrr\nUhrrrr Ahhhhrrrrrr\nAaaarhg... - Chewbacca",
-			"Freedom of expression is like the air we breathe, we don't feel it, until people take it away from us.\n\nFor this reason, Je suis Charlie, not because I endorse everything they published, but because I cherish the right to speak out freely without risk even when it offends others.\nAnd no, you cannot just take someone's life for whatever he/she expressed.\n\nHence this \"Je suis Charlie\" edition.\n - #JeSuisCharlie" ,
+            "Freedom of expression is like the air we breathe, we don't feel it, until people take it away from us.\n\nFor this reason, Je suis Charlie, not because I endorse everything they published, but because I cherish the right to speak out freely without risk even when it offends others.\nAnd no, you cannot just take someone's life for whatever he/she expressed.\n\nHence this \"Je suis Charlie\" edition.\n - #JeSuisCharlie",
              
              
         ])->random();
