@@ -2,7 +2,7 @@
 
 Change Laravel inspiring quotes to [Notepad++ easter egg quotes](http://en.wikipedia.org/wiki/Notepad%2B%2B#Easter_egg) and have a lot more inspiration.
 
-# Instalation
+## Instalation
 
 Include this package via Composer:
 
