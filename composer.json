@@ -1,6 +1,6 @@
 {
     "name": "gmsantos/inspiring",
-    "description": "An alternative inspiring quotes for Laravel 5",
+    "description": "Alternative inspiring quotes for Laravel 5",
     "keywords": ["laravel", "package", "console"],
     "license": "GPL-2.0+",
     "authors": [
