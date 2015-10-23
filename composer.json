@@ -1,11 +1,11 @@
 {
-    "name": "gmsantosxl/inspiring",
+    "name": "gmsantos/inspiring",
     "description": "An alternative inspiring quotes for Laravel 5",
     "keywords": ["laravel", "package", "console"],
     "license": "GPL-2.0+",
     "authors": [
         {
-            "name": "gmsantosxl",
+            "name": "gmsantos",
             "email": "gabriel.ms1@hotmail.com"
         }
     ],
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Gmsantosxl\\Inspiring\\": "src/"
+            "Gmsantos\\": "src/"
         }
     },
     "require-dev": {
@@ -23,7 +23,12 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Gmsantosxl\\Inspiring\\Tests\\": "tests/"
+            "Gmsantos\\Tests\\": "tests/"
         }
+    },
+    "scripts": {
+        "tests": [
+            "php vendor/phpunit/phpunit/phpunit"
+        ]
     }
 }

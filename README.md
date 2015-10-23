@@ -1,6 +1,6 @@
 # Funny Inspiring
 
-[![Latest Stable Version](https://poser.pugx.org/gmsantosxl/inspiring/v/stable)](https://packagist.org/packages/gmsantosxl/inspiring) [![Total Downloads](https://poser.pugx.org/gmsantosxl/inspiring/downloads)](https://packagist.org/packages/gmsantosxl/inspiring) [![Latest Unstable Version](https://poser.pugx.org/gmsantosxl/inspiring/v/unstable)](https://packagist.org/packages/gmsantosxl/inspiring) [![License](https://poser.pugx.org/gmsantosxl/inspiring/license)](https://packagist.org/packages/gmsantosxl/inspiring)
+[![Latest Stable Version](https://poser.pugx.org/gmsantos/inspiring/v/stable)](https://packagist.org/packages/gmsantos/inspiring) [![Total Downloads](https://poser.pugx.org/gmsantos/inspiring/downloads)](https://packagist.org/packages/gmsantos/inspiring) [![Latest Unstable Version](https://poser.pugx.org/gmsantos/inspiring/v/unstable)](https://packagist.org/packages/gmsantos/inspiring) [![License](https://poser.pugx.org/gmsantos/inspiring/license)](https://packagist.org/packages/gmsantos/inspiring)
 
 Change Laravel inspiring quotes to [Notepad++ easter egg quotes](http://en.wikipedia.org/wiki/Notepad%2B%2B#Easter_egg) and have a lot more inspiration.
 
@@ -8,7 +8,7 @@ Change Laravel inspiring quotes to [Notepad++ easter egg quotes](http://en.wikip
 
 Include this package via Composer:
 
-    composer require gmsantosxl/inspiring
+    composer require gmsantos/inspiring
 	
 Edit your `app/Console/Commands/Inspire.php`
 
@@ -18,6 +18,6 @@ Edit your `app/Console/Commands/Inspire.php`
 
 	use Illuminate\Console\Command;
 	//use Illuminate\Foundation\Inspiring;
-	use Gmsantosxl\Inspiring\Inspiring;
+	use Gmsantos\Inspiring;
 	
 Then run `php artisan inspire` and have fun! :)

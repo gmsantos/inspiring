@@ -1,6 +1,6 @@
 <?php
 
-namespace Gmsantosxl\Inspiring;
+namespace Gmsantos;
 
 use Illuminate\Support\Collection;
 
@@ -11,7 +11,7 @@ class Inspiring
      *
      * I've made this commit from my desk.
      *
-     * Source: https://github.com/notepad-plus-plus/notepad-plus-plus/blob/246c8bd1684f89d1e3c87a77148bc51e6555f83c/PowerEditor/src/Notepad_plus.cpp#L5500
+     * Quotes source: https://github.com/notepad-plus-plus/notepad-plus-plus/blob/246c8bd1684f89d1e3c87a77148bc51e6555f83c/PowerEditor/src/Notepad_plus.cpp#L5500
      *
      * @return string
      */

@@ -1,8 +1,8 @@
 <?php
 
-namespace Gmsantosxl\Inspiring\Tests;
+namespace Gmsantos\Tests;
 
-use Gmsantosxl\Inspiring\Inspiring;
+use Gmsantos\Inspiring;
 
 class InspiringTest extends \PHPUnit_Framework_TestCase
 {
