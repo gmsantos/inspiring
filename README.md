@@ -8,16 +8,20 @@ Change Laravel inspiring quotes to [Notepad++ easter egg quotes](http://en.wikip
 
 Include this package via Composer:
 
-    composer require gmsantos/inspiring
-	
+```console
+composer require gmsantos/inspiring
+```
+
 Edit your `app/Console/Commands/Inspire.php`
 
-    <?php
-	
-    namespace App\Console\Commands;
+```php
+<?php
 
-	use Illuminate\Console\Command;
-	//use Illuminate\Foundation\Inspiring;
-	use Gmsantos\Inspiring;
-	
+namespace App\Console\Commands;
+
+use Illuminate\Console\Command;
+//use Illuminate\Foundation\Inspiring;
+use Gmsantos\Inspiring;
+```
+
 Then run `php artisan inspire` and have fun! :)
