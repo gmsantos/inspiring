@@ -12,6 +12,26 @@ Include this package via Composer:
 composer require gmsantos/inspiring
 ```
 
+### Laravel 5.3
+
+In Laravel 5.3, `app/Console/Commands/Inspire.php` has moved to `routes/console.php` clousure command.
+
+Edit your `use` in the same way in Laravel 5.2 and backwards:
+
+```php
+<?php
+
+//use Illuminate\Foundation\Inspiring;
+use Gmsantos\Inspiring;
+
+/*
+|--------------------------------------------------------------------------
+| Console Routes
+|--------------------------------------------------------------------------
+```
+
+### Laravel 5.2 to 5
+
 Edit your `app/Console/Commands/Inspire.php`
 
 ```php
