@@ -30,7 +30,7 @@ use Gmsantos\Inspiring;
 |--------------------------------------------------------------------------
 ```
 
-### Laravel 5.2 to 5
+### Laravel 5.0 to 5.2
 
 Edit your `app/Console/Commands/Inspire.php`
 
