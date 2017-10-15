@@ -222,6 +222,14 @@ class Inspiring
             "Empty your memory, with a free(), like a pointer.\nIf you cast a pointer to a integer, it becomes the integer.\nIf you cast a pointer to a struct, it becomes the struct.\nThe pointer can crash, and can overflow.\nBe a pointer my friend. - Dennis Ritchie",
             "Uuuuuuuuuur Ahhhhrrrrrr\nUhrrrr Ahhhhrrrrrr\nAaaarhg... - Chewbacca",
             "Freedom of expression is like the air we breathe, we don't feel it, until people take it away from us.\n\nFor this reason, Je suis Charlie, not because I endorse everything they published, but because I cherish the right to speak out freely without risk even when it offends others.\nAnd no, you cannot just take someone's life for whatever he/she expressed.\n\nHence this \"Je suis Charlie\" edition.\n - #JeSuisCharlie",
+            "I always wanted to be somebody, but now I realize I should have been more specific. – Lily Tomlin",
+            "If at first you don’t succeed, then skydiving definitely isn’t for you. – Steven Wright",
+            "I find television very educational. Every time someone turns it on, I go in the other room and read a book. – Groucho Marx",
+            "Opportunity does not knock, it presents itself when you beat down the door. – Kyle Chandler",
+            "Don’t worry about the world coming to an end today. It is already tomorrow in Australia. – Charles Schulz",
+            "Age is of no importance unless you’re a cheese. – Billie Burke",
+            "Never put off until tomorrow what you can do the day after tomorrow. – Mark Twain",
+            "People often say that motivation doesn’t last. Well, neither does bathing; that’s why we recommend it daily. – Zig Ziglar",
              
              
         ])->random();
