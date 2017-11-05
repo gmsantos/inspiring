@@ -12,7 +12,7 @@ Include this package via Composer:
 composer require gmsantos/inspiring
 ```
 
-### Laravel 5.3
+### Laravel 5.3+
 
 In Laravel 5.3, `app/Console/Commands/Inspire.php` has moved to `routes/console.php` clousure command.
 
