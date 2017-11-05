@@ -3,8 +3,9 @@
 namespace Gmsantos\Tests;
 
 use Gmsantos\Inspiring;
+use PHPUnit\Framework\TestCase;
 
-class InspiringTest extends \PHPUnit_Framework_TestCase
+class InspiringTest extends TestCase
 {
     protected $quote;
     
