@@ -9,4 +9,4 @@ php:
   - '7.2'
 
 before_script: composer install
-script: composer test
+script: composer tests
