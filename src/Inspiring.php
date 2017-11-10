@@ -234,10 +234,9 @@ class Inspiring
             'Think about it; and think about it carefully. Nothing happens in our society without software. Nothing. -Uncle Bob Martin',
             'Talk is cheap. Show me the code.- Linus Torvalds',
             "It's all talk until the code runs. - Ward Cunningha",
-            "Good software, like wine, takes time.- Joel Spolsky",
-            "My bed is a magical place where I suddenly remember everything I forgot to do.",
-            "The difference between stupidity and genius is that genius has its limits."
-
+            'Good software, like wine, takes time.- Joel Spolsky',
+            'My bed is a magical place where I suddenly remember everything I forgot to do.',
+            'The difference between stupidity and genius is that genius has its limits.',
 
         ])->random();
     }
