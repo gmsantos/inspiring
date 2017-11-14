@@ -230,13 +230,14 @@ class Inspiring
             "Age is of no importance unless you’re a cheese. – Billie Burke",
             "Never put off until tomorrow what you can do the day after tomorrow. – Mark Twain",
             "People often say that motivation doesn’t last. Well, neither does bathing; that’s why we recommend it daily. – Zig Ziglar",
-            'The cleaner and nicer the program, the faster it’s going to run. And if it doesn’t, it’ll be easy to make it fast. - Joshua Bloch',
-            'Think about it; and think about it carefully. Nothing happens in our society without software. Nothing. -Uncle Bob Martin',
-            'Talk is cheap. Show me the code.- Linus Torvalds',
+            "The cleaner and nicer the program, the faster it’s going to run. And if it doesn’t, it’ll be easy to make it fast. - Joshua Bloch",
+            "Think about it; and think about it carefully. Nothing happens in our society without software. Nothing. -Uncle Bob Martin",
+            "Talk is cheap. Show me the code.- Linus Torvalds",
             "It's all talk until the code runs. - Ward Cunningha",
-            'Good software, like wine, takes time.- Joel Spolsky',
-            'My bed is a magical place where I suddenly remember everything I forgot to do.',
-            'The difference between stupidity and genius is that genius has its limits.',
+            "Good software, like wine, takes time.- Joel Spolsky",
+            "My bed is a magical place where I suddenly remember everything I forgot to do.",
+            "The difference between stupidity and genius is that genius has its limits.",
+
         ])->random();
     }
 }
