@@ -12,10 +12,8 @@ class Inspiring
      * I've made this commit from my desk.
      *
      * Quotes source: https://github.com/notepad-plus-plus/notepad-plus-plus/blob/246c8bd1684f89d1e3c87a77148bc51e6555f83c/PowerEditor/src/Notepad_plus.cpp#L5500
-     *
-     * @return string
      */
-    public static function quote()
+    public static function quote(): string
     {
         return Collection::make([
 
