@@ -14,7 +14,7 @@ composer require gmsantos/inspiring:^2
 
 ### Laravel 6 support
 
-Version 2.2 adds support for Laravel 6+ as a migration path only. I do not guaratee that everything works in newer PHP versions because Travis CI tests fails in newer versions if I keep backawrds compatibility with Laravel 5.
+Version 2.2 adds support for Laravel 6+ as a migration path only. I do not guaratee that everything works in newer PHP versions because Travis CI tests fails in newer versions if I keep backwards compatibility with Laravel 5.
 
 I recommed to upgrade to version 3+ of this package for Laravel 6+ and PHP 7.2+ support.
 
