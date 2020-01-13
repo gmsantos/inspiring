@@ -9,7 +9,7 @@ Change Laravel inspiring quotes to [Notepad++ easter egg quotes](http://en.wikip
 Include this package via Composer:
 
 ```console
-composer require gmsantos/inspiring
+composer require gmsantos/inspiring:^2
 ```
 
 ### Laravel 6 support
