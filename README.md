@@ -30,4 +30,4 @@ Then run `php artisan inspire` and have fun! :)
 
 ### Laravel 5+ support
 
-For Laravel 5 support, see [2.x branch](https://github.com/gmsantos/inspiring/tree/2.x).
+For Laravel 5 support, see [v2.x branch](https://github.com/gmsantos/inspiring/tree/v2.x).
