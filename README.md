@@ -12,6 +12,12 @@ Include this package via Composer:
 composer require gmsantos/inspiring
 ```
 
+### Laravel 6 support
+
+Version 2.2 adds support for Laravel 6+ as a migration path only. I do not guaratee that everything works in newer PHP versions because Travis CI tests fails in newer versions if I keep backawrds compatibility with Laravel 5.
+
+I recommed to upgrade to version 3+ of this package for Laravel 6+ and PHP 7.2+ support.
+
 ### Laravel 5.3+
 
 In Laravel 5.3, `app/Console/Commands/Inspire.php` has moved to `routes/console.php` clousure command.
