@@ -9,20 +9,10 @@ Change Laravel inspiring quotes to [Notepad++ easter egg quotes](http://en.wikip
 Include this package via Composer:
 
 ```console
-composer require gmsantos/inspiring:^2
+composer require gmsantos/inspiring
 ```
 
-### Laravel 6 support
-
-Version 2.2 adds support for Laravel 6+ as a migration path only. I do not guarantee that everything works in newer PHP versions because Travis CI tests fails in newer versions if I keep backwards compatibility with Laravel 5.
-
-I recommend to upgrade to version 3+ of this package for Laravel 6+ and PHP 7.2+ support.
-
-### Laravel 5.3+
-
-In Laravel 5.3, `app/Console/Commands/Inspire.php` has moved to `routes/console.php` clousure command.
-
-Edit your `use` in the same way in Laravel 5.2 and backwards:
+Edit your `routes/console.php` 
 
 ```php
 <?php
@@ -36,18 +26,8 @@ use Gmsantos\Inspiring;
 |--------------------------------------------------------------------------
 ```
 
-### Laravel 5.0 to 5.2
-
-Edit your `app/Console/Commands/Inspire.php`
-
-```php
-<?php
-
-namespace App\Console\Commands;
-
-use Illuminate\Console\Command;
-//use Illuminate\Foundation\Inspiring;
-use Gmsantos\Inspiring;
-```
-
 Then run `php artisan inspire` and have fun! :)
+
+### Laravel 5+ support
+
+For Laravel 5 support, see [v2.x branch](https://github.com/gmsantos/inspiring/tree/v2.x).
