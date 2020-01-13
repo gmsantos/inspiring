@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Gmsantos\Tests;
 
 use Gmsantos\Inspiring;
@@ -7,19 +9,14 @@ use PHPUnit\Framework\TestCase;
 
 class InspiringTest extends TestCase
 {
-    protected $quote;
+    private $quote;
 
-    public function setUp()
+    public function setUp(): void
     {
         $this->quote = Inspiring::quote();
     }
 
-    public function test_quote_is_a_string()
-    {
-        $this->assertInternalType('string', $this->quote);
-    }
-
-    public function test_quote_follows_a_format()
+    public function test_quote_follows_a_format_pattern(): void
     {
         $this->assertStringMatchesFormat('%a - %a', $this->quote);
     }
