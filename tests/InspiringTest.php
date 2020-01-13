@@ -14,11 +14,6 @@ class InspiringTest extends TestCase
         $this->quote = Inspiring::quote();
     }
 
-    public function test_quote_is_a_string(): void
-    {
-        $this->assertInternalType('string', $this->quote);
-    }
-
     public function test_quote_follows_a_format_pattern(): void
     {
         $this->assertStringMatchesFormat('%a - %a', $this->quote);
