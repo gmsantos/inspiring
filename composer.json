@@ -30,10 +30,5 @@
         "tests": [
             "php vendor/bin/phpunit"
         ]
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "v3.0.x-dev"
-        }
     }
 }
