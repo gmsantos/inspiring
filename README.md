@@ -28,6 +28,6 @@ use Gmsantos\Inspiring;
 
 Then run `php artisan inspire` and have fun! :)
 
-### Laravel 5+ support
+### Laravel 5.x support
 
 For Laravel 5 support, see [v2.x branch](https://github.com/gmsantos/inspiring/tree/v2.x).
